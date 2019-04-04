@@ -1,6 +1,7 @@
 {
-  "hasMore": true,
-  "nextPageToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJTbmFwc2hvdElkIjoiZDJjN2RmMGYtYmNhMy00YmZkLThiNTMtMmY0MmNjN2I2YTJlIiwiQ2h1bmtJZCI6IjAiLCJPZmZzZXQiOiIwIiwiZXhwIjoxNTE3MjIyNzI3LCJpc3MiOiJzYW5zYW4ifQ.tt2WABELFuZFmYUosxsiwK6deK36w-zUnL75T0vntkA",
+  "meta": {
+    "totalPages": 13
+  },
   "data": [
     {
       "id": "37171BA646FD16C8F0960DE7403AAAAA",
@@ -38,5 +39,12 @@
       "entryStatus": "completed",
       "isUserCreated": true
     }
-  ]
+  ],
+  "links": {
+    "self": "http://example.com/articles?page[number]=3&page[size]=1",
+    "first": "http://example.com/articles?page[number]=1&page[size]=1",
+    "prev": "http://example.com/articles?page[number]=2&page[size]=1",
+    "next": "http://example.com/articles?page[number]=4&page[size]=1",
+    "last": "http://example.com/articles?page[number]=13&page[size]=1"
+  }
 }
